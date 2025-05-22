@@ -18,7 +18,9 @@ int main() {
       i = a = b = 0;
       len = strlen(buf)-1;
       
-      for(i=0; i<=len; i++ ){ // Go through the string finding written numbers
+      /* Uncomment the below section in order to solve Part One*/
+      /*
+       for(i=0; i<=len; i++ ){ // Go through the string finding written numbers
         strncpy(substr, buf+i, SIZENUMBER);
         
         for(n=0; n<=SIZE; n++){ // Go through all possible written numbers
@@ -29,7 +31,7 @@ int main() {
           }
         }
       }
-    
+      */
       //printf("%s",buf);
       
       for(i=0; i<=len; i++ ){ //Get the first and last numbers in the string
