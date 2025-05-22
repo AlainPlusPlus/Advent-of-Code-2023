@@ -6,7 +6,7 @@
 
 int main() {
     char buf[1000];   // Buffer to store text lines
-    unsigned long len;
+    unsigned long len; // length
     int i, n, a, b;
     int sum = 0;
     int totalsum = 0;
