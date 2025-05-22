@@ -1,5 +1,6 @@
 # Advent-of-Code-2023
-Quick and creative puzzle solving programming for the Advent of Code 2023.
+Quick and creative puzzle solving programming exercices.
+Each program in this repo contains the answer(s) to the daily puzzle for the [Advent of Code 2023](https://adventofcode.com/2023).
 
 ## How to run the program using GCC
 The easiest way to compile and run this (and any) C program on most Operating Systems is using [GCC](https://gcc.gnu.org) (GNU Compiler Collection). Instructions on how to install GCC can be found [here](https://gcc.gnu.org/install/index.html).
