@@ -10,7 +10,7 @@ int main() {
     int sum = 0;
     int totalsum = 0;
     
-    char * charptr  // Pointer to the first character when a written number is found
+    char * charptr;  // Pointer to the first character when a written number is found
     char substr[SIZENUMBER+1];
     const char * const numbers[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
