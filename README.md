@@ -7,4 +7,5 @@ The easiest way to compile and run this (and any) C program on most Operating Sy
 
 After installing GCC, the program can be compiled and ran on the terminal using the following commands:
 
-`gcc -o day1  day1.c; ./day1 < [INPUT_FILE]`
+$gcc -o day1  day1.c
+$./day1 < [INPUT_FILE]
