@@ -35,17 +35,17 @@ int main() {
       */
       //printf("%s",buf);
       
-      for(i=0; i<=len; i++ ){ //Get the first and last numbers in the string
-        if (a == 0 && (buf[i] <= '9' && buf[i] > '0')){
+      for(i=0; i<=len; i++ ){ // Get the first and last numbers in the string
+        if (a == 0 && (buf[i] <= '9' && buf[i] > '0')){ // Find the first digit
           a = (int) buf[i] - '0';
         }
         
-        if (b == 0 && (buf[len-i] <= '9'&& buf[len-i] > '0')){
+        if (b == 0 && (buf[len-i] <= '9'&& buf[len-i] > '0')){ // Find the second digit
           b = (int) buf[len-i] - '0';
         }
       }
 
-      sum = (a*10) + b;
+      sum = (a*10) + b; // Calculate the two-digit number
       totalsum += sum;
       //printf("%d\n",sum);
     }
